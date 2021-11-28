@@ -70,16 +70,21 @@ async def start_(client: Client, message: Message):
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Arts", callback_data="cbcmds"),
+                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
                     InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Support Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                    )
                 ],
             ]
         ),
